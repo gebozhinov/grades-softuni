@@ -29,5 +29,7 @@ jobs:
       run: echo gebozhinov
     - name: Install browsers
       run: npx playwright install
+    - name: start the application
+      run: npm start &
     - name: Run iu tests
       run: npm run test:ui
